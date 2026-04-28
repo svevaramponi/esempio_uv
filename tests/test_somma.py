@@ -1,7 +1,7 @@
 import pytest
 from src.operazioni import somma
 
-def test_somma_positiv():
+def test_somma_positiva():
     assert somma([10,20])==30
 
 def test_somma_negativi():
