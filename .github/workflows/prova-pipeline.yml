@@ -14,6 +14,8 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
+    env:
+      PYTHONPATH: .
 
     steps:
     - uses: actions/checkout@v4
@@ -27,5 +29,4 @@ jobs:
         pip install pytest
     - name: Test with pytest
       run: |
-        export PYTHONPATH=$PYTHONPATH:.
         pytest tests/
