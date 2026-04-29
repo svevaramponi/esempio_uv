@@ -19,5 +19,5 @@ jobs:
     displayName: 'istallazione dipendenze'
 
   - script: uv run python -m pytest
-  displayName: 'test'
+    displayName: 'test'
 
