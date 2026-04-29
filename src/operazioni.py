@@ -25,3 +25,5 @@ def media(lista_dati):
         res = "lista vuota"
     
     return res
+
+print('ciao')
