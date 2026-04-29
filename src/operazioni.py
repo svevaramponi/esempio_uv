@@ -4,10 +4,10 @@ import numpy as np
 def somma(lista_numeri):
     res = 0
     for el in lista_numeri:
-        try:
+        '''try:
             res += el
         except:
-            res="stringa non sommabile"
+            res="stringa non sommabile" '''
     return res
 
 def generatore_num(quantita):
